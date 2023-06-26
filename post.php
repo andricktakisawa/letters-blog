@@ -12,7 +12,7 @@ $row = $result->fetch_assoc();
 
 <head>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@400;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
     </style>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
