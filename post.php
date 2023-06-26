@@ -18,7 +18,7 @@ $row = $result->fetch_assoc();
 </head>
 
 <body>
-    <div class="post">
+    <div class="card">
         <h2><?php echo $row["title"]; ?></h2>
         <p><?php echo $row["content"]; ?></p>
         <br>
