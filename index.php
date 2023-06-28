@@ -29,7 +29,10 @@ try {
 </head>
 
 <body>
-    </script>
+    <div style="margin-bottom: 50px; display: flex; align-items: center; justify-content: center;">
+        <a class="button" href="message.php">Ver Mensaje Diario</a>
+    </div>
+
     <div class="blog">
         <?php
         if ($result->num_rows > 0) {
