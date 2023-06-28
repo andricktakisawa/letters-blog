@@ -15,13 +15,21 @@ try {
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartas para Valeria | Cloud</title>
+    <meta name="theme-color" content="#5050f5">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="images/icon-192x192.png">
+    <script src="script.js"></script>
 </head>
 
 <body>
+    </script>
     <div class="blog">
         <?php
         if ($result->num_rows > 0) {
