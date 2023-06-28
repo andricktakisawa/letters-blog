@@ -8,9 +8,16 @@ $row = $result->fetch_assoc();
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php
+    echo "<title>" . $row["title"] . ' | ' . 'Carta No. ' . $row["id"] . "</title>";
+    ?>
+    <meta name="theme-color" content="#5050f5">
+    <link rel="apple-touch-icon" href="images/icon-192x192.png">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
     </style>
@@ -27,7 +34,6 @@ $row = $result->fetch_assoc();
         <div style="margin-top: 20px; display: flex; align-items: center; justify-content: center;">
             <a href="/" class="button" style="margin: 0 auto;">Regresar</a>
         </div>
-
     </div>
 </body>
 
