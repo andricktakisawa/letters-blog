@@ -24,6 +24,10 @@ $row = $result->fetch_assoc();
         <br>
         <p>Con amor, <br> Andrick Takisawa</p>
         <img class="sign" src="firma.png" alt="Firma de Andrick Takisawa">
+        <div style="margin-top: 20px; display: flex; align-items: center; justify-content: center;">
+            <a href="/" class="button" style="margin: 0 auto;">Regresar</a>
+        </div>
+
     </div>
 </body>
 
