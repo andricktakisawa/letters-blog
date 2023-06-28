@@ -172,6 +172,13 @@ form {
 }
 
 @media (max-width: 768px) {
+    .message {
+        max-width: 100%;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 768px) {
     .sign {
         width: 100%;
     }
