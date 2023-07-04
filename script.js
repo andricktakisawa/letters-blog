@@ -6,4 +6,6 @@ if ("serviceworker" in navigator) {
         console.log("SW Registration Failed");
         console.log(error);
     })
-}
+} OneSignal.push(function () {
+    OneSignal.showNativePrompt();
+});

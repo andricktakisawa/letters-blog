@@ -26,6 +26,15 @@ try {
     <link rel="manifest" href="/manifest.json">
     <link rel="apple-touch-icon" href="images/icon-192x192.png">
     <script src="script.js"></script>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" defer></script>
+    <script>
+        window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+                appId: "826a5cdb-03e1-43b7-8816-a56f99b37f69",
+            });
+        });
+    </script>
 </head>
 
 <body>

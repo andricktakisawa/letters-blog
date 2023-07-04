@@ -34,7 +34,18 @@ $row = $result->fetch_assoc();
         <div style="margin-top: 20px; display: flex; align-items: center; justify-content: center;">
             <a href="/" class="button" style="margin: 0 auto;">Regresar</a>
         </div>
+        <div style="margin-top: 45px;" id="disqus_thread"></div>
+        <script>
+            (function() {
+                var d = document,
+                    s = d.createElement('script');
+                s.src = '';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
     </div>
+    <script id="dsq-count-scr" src="" async></script>
 </body>
 
 </html>
